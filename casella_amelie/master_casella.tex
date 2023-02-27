@@ -1,0 +1,35 @@
+\documentclass[12pt]{report} %Antes tenía article.
+%usa book en lugar de article si quieres que la side view quede intercalada. 
+
+% LaTeX packages and global styles
+\input{paquetes_casella}
+%\input{base/style}
+
+% Beginning of the document
+\begin{document}
+    % Title page and unnumbered sections
+    %\input{sections/00_front_page}
+    
+    % Index of the document and figures
+    \begingroup
+        % Links are normally blue, but indexes are set to black
+        % so that everything does not appear blue
+        \hypersetup{linkcolor=black}
+        \tableofcontents
+        \newpage
+        %\listoffigures % uncomment to display list of code 
+        %\lstlistoflistings % uncomment to display list of code 
+    \endgroup
+    
+    
+    % Change page number style to normal
+    %\clearpage
+    \pagenumbering{arabic}
+    \input{intro_casella}
+    \input{randomVariableGeneration}
+
+
+    
+
+% End of the document
+\end{document}

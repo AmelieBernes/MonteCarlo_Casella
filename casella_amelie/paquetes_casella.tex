@@ -1,0 +1,146 @@
+%Paquetes y formato del documento. TODO: dividir esto en dos.
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+
+%\usepackage{apacite} por si quieres citar en formato APA.
+
+\usepackage[usenames,dvipsnames, svgnames]{xcolor}
+\definecolor{nuevo}{RGB}{47, 124, 247}
+\newcommand{\TODO}[1]{\textcolor{purple}{#1}}
+
+
+
+%Imágenes ---------------------------------
+\usepackage{graphicx}
+\graphicspath{{./imagenes}}
+\usepackage{subfigure}
+\usepackage{sidecap} %para poder usar el ambiente SCfigure
+
+
+
+\usepackage{tabularx,ragged2e,booktabs,caption}
+\usepackage{titlesec}
+\usepackage[bookmarks,breaklinks,colorlinks=true,allcolors=blue]{hyperref}
+\usepackage{listings}
+\usepackage{inconsolata}
+\usepackage{float}
+\usepackage{eso-pic}
+\usepackage[framemethod=tikz]{mdframed}
+
+\usepackage[square,numbers]{natbib}
+\AtBeginDocument{
+  \renewcommand{\bibsection}{\chapter{\bibname}}
+} % Bibliography in numbered chapter
+
+
+
+\usepackage{thmbox} %https://tex.stackexchange.com/questions/513107/what-is-this-fancy-theorem-environment
+
+
+%Math packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+
+
+\usepackage{parskip}
+\usepackage[official]{eurosym}
+\setlength {\marginparwidth }{1cm} 
+%\usepackage{todonotes}
+\usepackage{csquotes}
+
+\usepackage{rotating}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage[most]{tcolorbox}
+
+
+
+
+
+%--------------- Dimensiones del texto y notas laterales.
+\usepackage{geometry}
+\usepackage{sidenotes} % put annotations, tables and figures in the margin
+
+\captionsetup{font=footnotesize, skip=4pt}
+\usepackage{morefloats}
+\usepackage{marginfix}
+\geometry{
+paperwidth=210mm,
+paperheight=297mm,
+left=72pt,
+top=42pt,
+textwidth=360pt,
+marginparsep=20pt,
+marginparwidth=110pt,
+textheight=650pt,
+footskip=40pt,
+}
+
+
+\DeclareCaptionStyle{sidecaption}[]{labelfont={sf,bf,footnotesize}, font=footnotesize, justification=justified, singlelinecheck=off}
+
+\renewcommand{\normalsize}{\fontsize{10pt}{13pt}\selectfont}%
+\renewcommand{\footnotesize}{\fontsize{8pt}{10pt}\selectfont}%
+% fullwidth environment, text across textwidth+marginparsep+marginparwidth
+\newlength{\overhang}
+\setlength{\overhang}{\marginparwidth}
+\addtolength{\overhang}{\marginparsep}
+%
+\newenvironment{fullwidth}
+  {\ifthenelse{\boolean{@twoside}}%
+     {\begin{adjustwidth*}{}{-\overhang}}%
+     {\begin{adjustwidth}{}{-\overhang}}%
+  }%
+  {\ifthenelse{\boolean{@twoside}}%
+    {\end{adjustwidth*}}%
+    {\end{adjustwidth}}%
+  }
+
+
+%------------------------------------------
+
+
+			%% Secciones:
+			\newtheorem{teo}{Teorema}[section]
+			\newtheorem{lema}[teo]{Lema}
+			\newtheorem{prop}[teo]{Proposición}
+			\newtheorem{obs}[teo]{Observación}
+			\newtheorem{dem}[teo]{Demostración}
+			\newtheorem{cor}[teo]{Corolario}
+			\newtheorem{defi}[teo]{Definición}
+			\newtheorem{ej}[teo]{Ejemplo}
+			\newtheorem{ejercicio}[teo]{Ejercicio}
+			\newtheorem{sol}{\bf Solución}
+			\newtheorem{nota}{\bf Nota}
+
+%----- Símbolos matemáticos
+
+			\newcommand*{\IR}{\mathbb{R}}
+			\newcommand*{\QEDA}{\null\nobreak\hfill\ensuremath{\blacksquare}}% Final de demostración
+			\newcommand*{\final}{\null\nobreak\hfill\ensuremath{\diamond}}
+%Símbolo (un diamante) usado para marcar el final 
+%de una definición o ejemplo.
+			\newcommand*{\QEDB}{\null\nobreak\hfill\ensuremath{\square}}%
+			\newcommand{\limite}[2]{\lim\limits_{#1}{#2}} %límites
+			\newcommand{\suma}[3]{\sum\limits_{#1}^{#2}#3} %Sumas ys series
+			\newcommand{\union}[3]{\bigcup\limits_{#1}^{#2}{#3}} %uniones
+			\newcommand{\producto}[3]{\prod_{#1}^{#2}{#3}} %productos
+			\newcommand{\inter}[3]{\bigcap\limits_{#1}^{#2}{#3}} %intersecc.
+			\newcommand{\alg}{${{\sigma}} -$ álgebra }
+			\newcommand{\Om}{\Omega}
+			\newcommand{\limitsup}[1]{\inter{m=1}{\infty}{\left(\union{n=m}{\infty}{#1}\right)}} %Límite superior
+			\newcommand{\limitinf}[1]{\union{m=1}{\infty}{\left(\inter{n=m}{\infty}{#1}\right)}} %Límite inferior
+			\newcommand\myeq[2]{\stackrel{\mathclap{\normalfont\mbox{#1}}}{#2}}
+			%para escribir sobre símbolos matemátcos			
+			
+			
+			\newcommand{\var}[1]{\sigma_{X}^{2}}
+			\newcommand{\desv}[1]{\sigma_{X}}
+			\newcommand{\mean}[1]{\mu_{X}}
+
+
+%-------------------------------------------
+
+%\DeclareCaptionStyle{marginfigure}[]{labelfont={sf,bf,footnotesize}, font=footnotesize, justification=justified}
