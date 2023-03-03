@@ -212,10 +212,124 @@ Código de R empleado para generar la imagen:
 \end{verbatim}
 
 
+\begin{itemize}
+\item[b)] \textbf{Distribución de Cauchy}: la pdf es
+
+\[
+f(x)= \frac{1}{\pi \sigma} \frac{1}{1+ \left( \frac{x-\mu }{\sigma} \right)^{2}}.
+\]
+Después de integrar se llega a que 
+\[
+\forall x \in \IR : \hspace{0.2cm}
+F(x)= \frac{1}{2} \frac{1}{\pi} arctan\left( \frac{x-\mu }{\sigma} \right).
+\]
+
+La inversa de esta transformación es 
+
+\[
+F^{-1}(u)= \mu + \sigma tan \left( \pi u -\frac{\pi}{2} \right),
+\hspace{0.2cm} 0 < u < 1,
+\]
+luego, 
+según el ejercicio \ref{ejerc: 2.1}, si $U \sim U(0,1)$, la variable
+aleatoria
+\[
+F^{-1}(U)= \mu + \sigma tan \left( \pi U -\frac{\pi}{2} \right)
+\]
+tiene distribución de Cauchy con parámetros $\mu$ y $\sigma$.
+
+Haciendo $\mu=0$ y $\sigma=1$, podemos graficar los histogramas
+de $10^4$ variables aleatorias
+
+
+\begin{equation}
+\label{eq0: 2Marz}
+X \sim Cauchy (\mu, sigma), \hspace{0.2cm} \text{y}
+\hspace{0.2cm} Z= \mu + \sigma tan \left( \pi U -\frac{\pi}{2} \right)
+\end{equation}
+
+
+y compararlos; como se ve en la figura, resultado de correr
+el código de más abajo, estos histogramas son casi idénticos.
+\end{itemize}
+
+
+
+\begin{figure}[H]
+\centering
+	\sidecaption{Histogramas de distribuciones Cauchy
+	(tamaño de muestra: $10^{4}$) usando las variables aleatorias
+	\eqref{eq0: 2Marz}.}
+	\includegraphics[scale=0.5]{CauchyFromUnif} 
+\end{figure}
+
+Código de R empleado para generar la imagen:
+\begin{verbatim}
+> Nsim=10^4
+> U=runif(Nsim)
+> X=rcauchy(Nsim)
+> Z=tan(3.1416*(U-0.5))
+> par(mfrow=c(1,2))
+> hist(X, freq=FALSE, main='Cauchy from R')
+> hist(Z, freq=FALSE, main='Cauchy from uniform')
+\end{verbatim}
 \vspace{0.2cm}
 
 
 
+\subsection{2.2: General transformation methods}
 
+Según un ejemplo del libro, si $U \sim U(0,1)$, entonces
+$-ln(U) \sim Exp(1)$. Se establecen además las siguientes
+relaciones:
 
+\begin{teo}
+Sea $\{ X_{i} \}_{i \in \mathbb{N}}$ iid $Exp(1)$ variables aleatorias.
+Para cualesquiera $a, b, v \in \mathbb{N}2^{*}$, 
+
+\begin{equation}
+\label{eq1: 2Marz}
+Y=2 \suma{j=1}{v}{X_{j}} \sim \chi_{2v}^{2},
+\end{equation}
+
+\begin{equation}
+\label{eq2: 2Marz}
+Y=\beta \suma{j=1}{a}{X_{j}} \sim \mathcal{G}(a, \beta),
+\end{equation}
+
+\begin{equation}
+\label{eq3: 2Marz}
+Y= \frac{\suma{j=1}{a}{X_{j}}}{\suma{j=1}{a+b}{X_{j}}} 
+\sim Beta(a,b).
+\end{equation}
+\end{teo}
+
+Comprobemos las fórmulas \eqref{eq1: 2Marz}, \eqref{eq2: 2Marz}
+y \eqref{eq3: 2Marz} con algunas simulaciones en R.
+
+\begin{center}
+\begin{marginfigure}
+  \centering
+  \includegraphics[scale=1]{2Marz.png}
+  \caption{Explicación gráfica del proceso de simulación.}
+\end{marginfigure}
+\end{center}
+
+\begin{verbatim}
+> U=runif(3*10^4)
+> U=matrix(data=U, nrow=3)
+> X=-log(U)
+> Y=2*apply(X, 2, sum)
+> Z=rchisq(10^4, df=6)
+> par(mfrow=c(1,2))
+> hist(Z, freq=FALSE, main='Chi df=6 from R')
+> hist(Y, freq=FALSE, main='Chi df=6 from Exp')
+\end{verbatim}
+
+\begin{figure}[H]
+\centering
+	\sidecaption{Histogramas de $Y=2(X_{1}+X_{2}+X_{3})$, con $X_{i}$,
+	$1 \leq i \leq 3$ iid $Exp(1)$ y de $Z \sim \chi^{2}_{6}$. }
+	\includegraphics[scale=0.5]{chiFromExp} 
+\end{figure}
 

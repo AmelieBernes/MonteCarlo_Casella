@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.20)  26 FEB 2023 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.20)  2 MAR 2023 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,12 +1324,12 @@ Package marginnote Info: Using workaround for absolute page number on input lin
 e 1.
 
 Chapter 2.
-<./imagenes/26Feb_1.png, id=76, 87.2058pt x 90.5784pt>
+<./imagenes/26Feb_1.png, id=86, 87.2058pt x 90.5784pt>
 File: ./imagenes/26Feb_1.png Graphic file (type png)
 <use ./imagenes/26Feb_1.png>
 Package pdftex.def Info: ./imagenes/26Feb_1.png  used on input line 7.
 (pdftex.def)             Requested size: 87.20557pt x 90.57817pt.
-<./imagenes/26Feb_2.png, id=78, 316.5426pt x 160.9212pt>
+<./imagenes/26Feb_2.png, id=88, 316.5426pt x 160.9212pt>
 File: ./imagenes/26Feb_2.png Graphic file (type png)
 <use ./imagenes/26Feb_2.png>
 Package pdftex.def Info: ./imagenes/26Feb_2.png  used on input line 41.
@@ -1337,12 +1337,12 @@ Package pdftex.def Info: ./imagenes/26Feb_2.png  used on input line 41.
 [2
 
  <./imagenes/26Feb_1.png>]
-<./imagenes/26Feb_3.png, id=94, 84.0741pt x 82.6287pt>
+<./imagenes/26Feb_3.png, id=104, 84.0741pt x 82.6287pt>
 File: ./imagenes/26Feb_3.png Graphic file (type png)
 <use ./imagenes/26Feb_3.png>
 Package pdftex.def Info: ./imagenes/26Feb_3.png  used on input line 59.
 (pdftex.def)             Requested size: 84.07387pt x 82.62846pt.
-<./imagenes/26Feb_4.png, id=95, 136.3494pt x 78.7743pt>
+<./imagenes/26Feb_4.png, id=105, 136.3494pt x 78.7743pt>
 File: ./imagenes/26Feb_4.png Graphic file (type png)
 <use ./imagenes/26Feb_4.png>
 Package pdftex.def Info: ./imagenes/26Feb_4.png  used on input line 86.
@@ -1388,7 +1388,7 @@ Underfull \hbox (badness 6016) in paragraph at lines 201--201
 \OT1/lmr/m/n/8 de dis-tribu-ciones log^^S^^Psticas
  []
 
-<logistic.png, id=120, 651.93562pt x 349.305pt>
+<logistic.png, id=130, 651.93562pt x 349.305pt>
 File: logistic.png Graphic file (type png)
 <use logistic.png>
 Package pdftex.def Info: logistic.png  used on input line 201.
@@ -1398,23 +1398,77 @@ LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line
 210.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [5 <./logistic.png (PNG copy)>] (./master_casella.aux)
+)
+Package marginnote Info: Margin note 7.1 is on absolute page 8 on input line 26
+3.
+Package marginnote Info: right page because not two side mode on input line 263
+.
+Package marginnote Info: xpos seems to be 72.0pt on input line 263.
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+[]\OT1/lmss/bx/n/8 Figure 2.4: |\OT1/lmr/m/n/8 His-togra-mas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+\OT1/lmr/m/n/8 de dis-tribu-ciones Cauchy
+ []
+
+<./imagenes/CauchyFromUnif.png, id=143, 651.93562pt x 349.305pt>
+File: ./imagenes/CauchyFromUnif.png Graphic file (type png)
+<use ./imagenes/CauchyFromUnif.png>
+Package pdftex.def Info: ./imagenes/CauchyFromUnif.png  used on input line 263.
+
+(pdftex.def)             Requested size: 325.96701pt x 174.65207pt.
+[5 <./logistic.png (PNG copy)>]
+<./imagenes/2Marz.png, id=156, 118.2819pt x 145.9854pt>
+File: ./imagenes/2Marz.png Graphic file (type png)
+<use ./imagenes/2Marz.png>
+Package pdftex.def Info: ./imagenes/2Marz.png  used on input line 313.
+(pdftex.def)             Requested size: 118.2816pt x 145.98503pt.
+
+Overfull \hbox (8.2816pt too wide) in paragraph at lines 313--314
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]\OT1/lmr/m/n/8 Figure 2.5: |Ex-pli-caci^^Son
+ []
+
+[6 <./imagenes/2Marz.png> <./imagenes/CauchyFromUnif.png (PNG copy)>]
+Package marginnote Info: Margin note 9.1 is on absolute page 9 on input line 33
+3.
+Package marginnote Info: right page because not two side mode on input line 333
+.
+Package marginnote Info: xpos seems to be 72.0pt on input line 333.
+<./imagenes/chiFromExp.png, id=170, 651.93562pt x 349.305pt>
+File: ./imagenes/chiFromExp.png Graphic file (type png)
+<use ./imagenes/chiFromExp.png>
+Package pdftex.def Info: ./imagenes/chiFromExp.png  used on input line 333.
+(pdftex.def)             Requested size: 325.96701pt x 174.65207pt.
+)
+(./notacion_casella.tex [7 <./imagenes/chiFromExp.png (PNG copy)>]
+Chapter 3.
+) [8
+
+] (./master_casella.aux)
 Package rerunfilecheck Info: File `master_casella.out' has not changed.
-(rerunfilecheck)             Checksum: F45FCB5452489CA2C812B4CF0DF27428;628.
+(rerunfilecheck)             Checksum: 6218A76B38BF7F77C0B1C14188BE2F1F;959.
  ) 
 Here is how much of TeX's memory you used:
- 32903 strings out of 478238
- 647001 string characters out of 5850455
- 976581 words of memory out of 5000000
- 50477 multiletter control sequences out of 15000+600000
+ 32962 strings out of 478238
+ 648225 string characters out of 5850455
+ 976864 words of memory out of 5000000
+ 50517 multiletter control sequences out of 15000+600000
  529669 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  118i,12n,132p,1203b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
-onts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.e
-nc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-di
-st/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/l
-m-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/shar
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dis
+t/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm
+.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf-di
+st/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/l
+m-mathit.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type
 1/public/lm/lmbxo10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb
 ></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist
@@ -1427,13 +1481,14 @@ public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro10.pfb></
 usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/
 fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/l
 msy6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/tex
-mf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msbm10.pfb>
-Output written on master_casella.pdf (6 pages, 609790 bytes).
+mf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msa
+m10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on master_casella.pdf (9 pages, 757957 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 
