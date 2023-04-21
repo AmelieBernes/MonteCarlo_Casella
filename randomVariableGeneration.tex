@@ -67,6 +67,7 @@ acumulación $F_{X}$, defina a la \textbf{inversa generalizada
 de $F_{X}$} como sigue:
 
 \begin{equation}
+\label{ec: def inversa generalizada}
 \forall u \in (0,1): \hspace*{0.2cm}
 F_{X}^{-}(u):= inf\{x \hspace{0.1cm} : \hspace*{0.1cm} F_{X}(x) \geq u \}.
 \end{equation}
@@ -333,3 +334,139 @@ y \eqref{eq3: 2Marz} con algunas simulaciones en R.
 	\includegraphics[scale=0.5]{chiFromExp} 
 \end{figure}
 
+\TODO{No pude simular correctamente las otras dos distribuciones!}
+\subsection{2.2.1 A normal generator}
+\begin{teo}
+\textbf{(Box-Muller)} if $U_{1}$ and $U_{2}$ are iid uniforms in $]0,1[$,
+then the variables
+\[
+X_{1} := \sqrt{-2 log(U_{1})} cos(2 \pi U_{2})
+\]
+and 
+\[
+X_{2} := \sqrt{-2 log(U_{1})} sen(2 \pi U_{2})
+\]
+are iid N(0,1).
+\end{teo}
+
+\begin{verbatim}
+> n = 10**4
+> U1 = runif(n)
+> U2 = runif(n)
+> X1 = sqrt(-2*log(U1))*cos(2*pi*U2)
+> X2 = sqrt(-2*log(U1))*sin(2*pi*U2)
+> N = rnorm(n,0,1)
+> par(mfrow=c(1,3))
+> hist(X1, freq=FALSE, main='Primera normal de BM')
+> hist(X2, freq=FALSE, main='Segunda normal de BM')
+> hist(N, freq=FALSE, main='Normal de R')
+\end{verbatim}
+\begin{figure}[H]
+	\sidecaption{
+	Usamos el algoritmo de Box-Muller para generar dos normales estandar.
+	Comparamos sus histogramas con el de una normal generada por R.
+	\label{fig: BM}
+	}
+	\centering
+	\includegraphics[scale=0.55]{BM} 
+\end{figure}	
+
+\begin{figure}[H]
+	\sidecaption{
+	\label{fig: BM explained}
+	}
+	\centering
+	\includegraphics[scale= 1]{Box-Muller} 
+\end{figure}	
+
+\begin{ejercicio}
+\textbf{(2.3)} Podemos usar el \textbf{teorema del 
+límite central} para generar una distribución normal a partir de 
+variables aleatorias uniformes e independientes. \\
+
+Sean $U_{i} \sim U[-1/2, 1/2]$, $0 \leq i \leq 12$.
+Se calcula que, para toda $i$, $E[U_{i}]=0$ y
+$Var[U_{i}] = 1/12$.
+Si $Z := \suma{i=1}{12}{U_{1}}$, entonces
+\[
+E(Z) = \suma{i=1}{12}{E(U_{i})} = 0
+\]
+y 
+\[
+Var(Z) = \suma{i=1}{12}{Var(U_{i})} = 1;
+\]
+
+\noindent
+ahora bien, según el TLC, la variable aleatoira
+\[
+\frac{Z - E(Z)}{\sqrt{Var(Z)}} = Z
+\]
+tiende en probabilidad a $N(0,1)$
+\begin{verbatim}
+> n = 10**4
+> Z1 = rnorm(n, 0, 1)
+> U =runif(12*10**4)
+> U = matrix(data = U, nrow=12)
+> Z2 = apply(U, 2, sum)
+> U1 = runif(n)
+> U2 = runif(n)
+> Z3 = sqrt(-2*log(U1))*cos(2*pi*U2)
+> par(mfrow=c(1,3))
+> hist(Z1, freq = FALSE, main = "Normal con R")
+> hist(Z2, freq = FALSE, main = "Normal con TLC")
+> hist(Z3, freq = FALSE, main = "Normal con BM")
+\end{verbatim}
+\end{ejercicio}
+\begin{figure}[H]
+	\sidecaption{
+	Resultados de las simulaciones en R.
+	Por lo general se prefire usar BM a TLC, pues
+	el primero da lugar a v.a. que en efecto tienen
+	distribuciones $N(0,1)$, mientras que el segundo
+	método siempre da aproximaciones.
+	\label{fig: generadores_normal}
+	}
+	\centering
+	\includegraphics[scale= 0.55]{generadores_normal} 
+\end{figure}	
+
+\subsection{2.2.2 Discrete distributions}
+
+A partir de una variable uniforme
+$U \sim U(0,1)$, también es posible generar distribuciones
+discretas. Sea $P_{\theta}$ una distribución cuyo 
+soporte está contenido en $\mathbb{Z}$, y sea
+$X \sim P_{\theta}$.
+
+
+Calcular a $F_{\theta}$ (la función de acumulación
+de la distribución) se reduce a calcular 
+(\textbf{y, en la práctica, guardar en la memoria})
+los siguientes números;
+
+\begin{equation}
+\label{eq0: 20Ap}
+p_{k} := P(X \leq k)
+\end{equation}
+
+\begin{figure}[H]
+	\sidecaption{
+	Recuerde cómo se define la inversa generalizada
+	de la función de acumulación $F$ en 
+	\eqref{ec: def inversa generalizada}.
+	\label{fig: 20ap 1}
+	}
+	\centering
+	\includegraphics[scale= 1.3]{20ap_1} 
+\end{figure}	
+
+La inversa generaliada $F_{\theta}^{-}$ de la función
+de acumulación dada es
+\[
+\aplica{F_{\theta}^{-}}{]0,1[}{\{ p_{k} \}_{k \in \mathbb{Z}} }{u}{
+k \hspace{0.2cm} \textit{si } p_{k-1} < u \leq p_{k}.
+}
+\]
+
+Según el ejercicio \ref{ejerc: 2.1},
+$X:= F^{-}_{\theta} \circ U \sim P_{\theta}$.

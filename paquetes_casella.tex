@@ -100,20 +100,23 @@ footskip=40pt,
 
 
 %------------------------------------------
+\let\newemptytheorem\newtheorem
+\usepackage{thmbox}
 
+\newemptytheorem{ejercicio}{Ejercicio}
+%TODO así como en la tesis, definir environments de teorema en el que el marco no se aplique.
 
 			%% Secciones:
-			\newtheorem{teo}{Teorema}[section]
-			\newtheorem{lema}[teo]{Lema}
-			\newtheorem{prop}[teo]{Proposición}
-			\newtheorem{obs}[teo]{Observación}
-			\newtheorem{dem}[teo]{Demostración}
-			\newtheorem{cor}[teo]{Corolario}
-			\newtheorem{defi}[teo]{Definición}
-			\newtheorem{ej}[teo]{Ejemplo}
-			\newtheorem{ejercicio}[teo]{Ejercicio}
-			\newtheorem{sol}{\bf Solución}
-			\newtheorem{nota}{\bf Nota}
+			\newtheorem[M]{teo}{Teorema}[section]
+			\newtheorem[M]{lema}[teo]{Lema}
+			\newtheorem[M]{prop}[teo]{Proposición}
+			\newtheorem[M]{obs}[teo]{Observación}
+			\newtheorem[M]{dem}[teo]{Demostración}
+			\newtheorem[M]{cor}[teo]{Corolario}
+			\newtheorem[M]{defi}[teo]{Definición}
+			\newtheorem[M]{ej}[teo]{Ejemplo}
+			\newtheorem[M]{sol}{\bf Solución}
+			\newtheorem[M]{nota}{\bf Nota}
 
 %----- Símbolos matemáticos
 
@@ -128,7 +131,7 @@ footskip=40pt,
 			\newcommand{\union}[3]{\bigcup\limits_{#1}^{#2}{#3}} %uniones
 			\newcommand{\producto}[3]{\prod_{#1}^{#2}{#3}} %productos
 			\newcommand{\inter}[3]{\bigcap\limits_{#1}^{#2}{#3}} %intersecc.
-			\newcommand{\alg}{${{\sigma}} -$ álgebra }
+			\newcommand{\alg}{${{\sigma}}-$álgebra }
 			\newcommand{\Om}{\Omega}
 			\newcommand{\limitsup}[1]{\inter{m=1}{\infty}{\left(\union{n=m}{\infty}{#1}\right)}} %Límite superior
 			\newcommand{\limitinf}[1]{\union{m=1}{\infty}{\left(\inter{n=m}{\infty}{#1}\right)}} %Límite inferior
@@ -140,6 +143,8 @@ footskip=40pt,
 			\newcommand{\desv}[1]{\sigma_{X}}
 			\newcommand{\mean}[1]{\mu_{X}}
 
+
+		\newcommand{\aplica}[5]{\text{${\begin{array}{crcl} #1: & #2 & \longrightarrow & #3 \\ \, & #4 & \longmapsto & #5 \end{array}}$}} %Notación para la definición de una aplicación.
 
 %-------------------------------------------
 
