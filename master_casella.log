@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.6)  20 APR 2023 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.6)  13 MAY 2023 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1531,12 +1531,33 @@ Package marginnote Info: Margin note 12.1 is on absolute page 12 on input line
 Package marginnote Info: right page because not two side mode on input line 459
 .
 Package marginnote Info: xpos seems to be 72.0pt on input line 459.
-<./imagenes/20ap_1.png, id=206, 163.3302pt x 95.6373pt>
+<./imagenes/20ap_1.png, id=206, 217.2918pt x 152.9715pt>
 File: ./imagenes/20ap_1.png Graphic file (type png)
 <use ./imagenes/20ap_1.png>
 Package pdftex.def Info: ./imagenes/20ap_1.png  used on input line 460.
-(pdftex.def)             Requested size: 212.32921pt x 124.32843pt.
-) (./notacion_casella.tex [10 <./imagenes/20ap_1.png>]
+(pdftex.def)             Requested size: 282.47928pt x 198.86288pt.
+Package marginnote Info: Margin note 12.2 is on absolute page 12 on input line 
+485.
+Package marginnote Info: right page because not two side mode on input line 485
+.
+Package marginnote Info: xpos seems to be 72.0pt on input line 485.
+
+Underfull \hbox (badness 3657) in paragraph at lines 485--485
+[]\OT1/lmss/bx/n/8 Figure 2.11: |\OT1/lmr/m/n/8 Figura gen-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 485--485
+\OT1/lmr/m/n/8 er-ada us-ando el c^^Sodigo de
+ []
+
+<./imagenes/binom_de_unif.png, id=208, 688.0104pt x 346.1733pt>
+File: ./imagenes/binom_de_unif.png Graphic file (type png)
+<use ./imagenes/binom_de_unif.png>
+Package pdftex.def Info: ./imagenes/binom_de_unif.png  used on input line 486.
+(pdftex.def)             Requested size: 344.00436pt x 173.08621pt.
+) (./notacion_casella.tex [10 <./imagenes/20ap_1.png> <./imagenes/binom_de_unif
+.png>]
 Chapter 3.
 ) [11
 
@@ -1545,11 +1566,11 @@ Package rerunfilecheck Info: File `master_casella.out' has not changed.
 (rerunfilecheck)             Checksum: 1F84989E66F5121D551FAA220BEB3C9D;1356.
  ) 
 Here is how much of TeX's memory you used:
- 33433 strings out of 476025
- 660363 string characters out of 5796533
+ 33454 strings out of 476025
+ 660826 string characters out of 5796533
  1863388 words of memory out of 5000000
- 53173 multiletter control sequences out of 15000+600000
- 581141 words of font info for 76 fonts, out of 8000000 for 9000
+ 53190 multiletter control sequences out of 15000+600000
+ 582080 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,15n,121p,1203b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dis
@@ -1566,13 +1587,14 @@ exmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1
 /public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></
 usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fon
 ts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt1
-0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on master_casella.pdf (12 pages, 1192802 bytes).
+0.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/font
+s/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msbm7.pfb>
+Output written on master_casella.pdf (12 pages, 1263385 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

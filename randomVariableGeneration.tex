@@ -460,7 +460,7 @@ p_{k} := P(X \leq k)
 	\includegraphics[scale= 1.3]{20ap_1} 
 \end{figure}	
 
-La inversa generaliada $F_{\theta}^{-}$ de la función
+La inversa generalizada $F_{\theta}^{-}$ de la función
 de acumulación dada es
 \[
 \aplica{F_{\theta}^{-}}{]0,1[}{\{ p_{k} \}_{k \in \mathbb{Z}} }{u}{
@@ -470,3 +470,18 @@ k \hspace{0.2cm} \textit{si } p_{k-1} < u \leq p_{k}.
 
 Según el ejercicio \ref{ejerc: 2.1},
 $X:= F^{-}_{\theta} \circ U \sim P_{\theta}$.
+
+\begin{ej}
+Este es el resultado de usar las ideas de esta sección para,
+a partir de números aleatorios de una distribución
+$U(0,1)$, obtener una distribución binomial.
+\end{ej}
+\begin{figure}[H]
+	\sidecaption{
+	Figura generada usando el
+	código de \texttt{generar$\_$binomial.py}
+	\label{fig: binom de unif}
+	}
+	\centering
+	\includegraphics[scale = 0.5]{binom_de_unif} 
+\end{figure}	
