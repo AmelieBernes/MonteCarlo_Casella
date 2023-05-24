@@ -471,6 +471,7 @@ k \hspace{0.2cm} \textit{si } p_{k-1} < u \leq p_{k}.
 Según el ejercicio \ref{ejerc: 2.1},
 $X:= F^{-}_{\theta} \circ U \sim P_{\theta}$.
 
+\TODO{checa cómo tienes los environments de ejemplo en tu tesis.}
 \begin{ej}
 Este es el resultado de usar las ideas de esta sección para,
 a partir de números aleatorios de una distribución
@@ -485,3 +486,35 @@ $U(0,1)$, obtener una distribución binomial.
 	\centering
 	\includegraphics[scale = 0.5]{binom_de_unif} 
 \end{figure}	
+
+\begin{figure}[H]
+	\sidecaption{
+	Figura generada usando el
+	código de \texttt{generar$\_$binomial.py}
+	\label{fig: binom de unif}
+	}
+	\centering
+	\includegraphics[scale = 0.5]{binom_de_unif_2} 
+\end{figure}	
+
+Vamos a hacer lo mismo pero ahora con \texttt{R}.
+
+\begin{verbatim}
+> Nsim = 10^4; n = 10; p = 0.3
+> soporte = seq(0, n, 1)
+> vector_pk = pbinom(soporte, n, p)
+> X = rep(0, Nsim) 
+> for (i in 1:Nsim){
++ u = runif(1)
++ X[i] = sum(vector$\_$pk<u)
++ }
+\end{verbatim}
+Note que \texttt{vector$\_$pk} es el vector en el que
+se almacenan los valores $p\_{k}$ para
+$0 \leq k \leq n$ (que, en el caso de la distribución
+binomial, son todos los valores de $k$ que basta considerar),
+y que \texttt{vector$\_$pk} es un vector de booleanos,
+cuya $i-$ésima entrada es \texttt{TRUE} si la i-ésima
+entrada de \texttt{vector$\_$pk} es menor a $u$, y es 
+\texttt{FALSE} en caso contrario. Nota entonces que
+$\texttt{sum(vector\_pk<u)} = F^{-}(u)$. 

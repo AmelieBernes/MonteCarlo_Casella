@@ -9,10 +9,12 @@ colores = ['#85a255', '#794775']
 def generador_pk(n, p):
     """
     n y p son los parámetros de una Binomial
+    Se regresa un array que contiene los valores p_k := P(X \leq k) para toda
+    0 \leq k \leq n
     """
     q = 1-p
     valores_pk = [q**n] 
-    for k in range(10):
+    for k in range(n):
         valores_pk.append(valores_pk[k] + scipy.special.binom(n, k+1) * p**(k+1) * (q)**(n-k-1))
     return valores_pk
 
@@ -81,7 +83,9 @@ def generando_binomial_de_uniforme(n, p, N):
     return plt.show()
 
 
-generando_binomial_de_uniforme(10, 0.5, 20000)
+if __name__ == '__main__': 
+    generando_binomial_de_uniforme(10, 0.3, 10**4)
+    #generando_binomial_de_uniforme(20, 0.3, 20000)
 
 
         

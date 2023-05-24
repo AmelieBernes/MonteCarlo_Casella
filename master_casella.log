@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.6)  13 MAY 2023 20:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.6)  23 MAY 2023 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,13 +834,6 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \c@mdf@zref@counter=\count333
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-(/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip144
-\bibsep=\skip145
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count334
-)
 (/usr/share/texmf-dist/tex/latex/thmbox/thmbox.sty
 Package: thmbox 2005/04/24 v2.0 fancy theorem outlining
 \thmbox@leftmargin=\dimen307
@@ -854,7 +847,7 @@ Package: thmbox 2005/04/24 v2.0 fancy theorem outlining
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip146
+\@mathmargin=\skip144
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -872,14 +865,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count335
+\inf@bad=\count334
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count336
-\leftroot@=\count337
+\uproot@=\count335
+\leftroot@=\count336
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count338
-\DOTSCASE@=\count339
+\classnum@=\count337
+\DOTSCASE@=\count338
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -892,20 +885,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen315
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count340
+\macc@depth=\count339
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count341
+\c@MaxMatrixCols=\count340
 \dotsspace@=\muskip17
-\c@parentequation=\count342
-\dspbrk@lvl=\count343
+\c@parentequation=\count341
+\dspbrk@lvl=\count342
 \tag@help=\toks40
-\row@=\count344
-\column@=\count345
-\maxfields@=\count346
+\row@=\count343
+\column@=\count344
+\maxfields@=\count345
 \andhelp@=\toks41
 \eqnshift@=\dimen316
 \alignsep@=\dimen317
@@ -914,8 +907,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen320
 \lineht@=\dimen321
 \@envbody=\toks42
-\multlinegap=\skip147
-\multlinetaggap=\skip148
+\multlinegap=\skip145
+\multlinetaggap=\skip146
 \mathdisplay@stack=\toks43
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -940,12 +933,12 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 )
 (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count347
-\csq@gtype=\count348
-\csq@glevel=\count349
-\csq@qlevel=\count350
-\csq@maxlvl=\count351
-\csq@tshold=\count352
+\csq@reset=\count346
+\csq@gtype=\count347
+\csq@glevel=\count348
+\csq@qlevel=\count349
+\csq@maxlvl=\count350
+\csq@tshold=\count351
 \csq@ltx@everypar=\toks44
 
 (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -959,9 +952,9 @@ File: csquotes.cfg
 ))
 (/usr/share/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count353
-\rotFPtop=\skip149
-\rotFPbot=\skip150
+\c@r@tfl@t=\count352
+\rotFPtop=\skip147
+\rotFPbot=\skip148
 \rot@float@box=\box126
 \rot@mess@toks=\toks45
 )
@@ -1022,9 +1015,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box128
 \tcb@lowerbox=\box129
 \tcb@phantombox=\box130
-\c@tcbbreakpart=\count354
-\c@tcblayer=\count355
-\c@tcolorbox@number=\count356
+\c@tcbbreakpart=\count353
+\c@tcblayer=\count354
+\c@tcolorbox@number=\count355
 \tcb@temp=\box131
 \tcb@temp=\box132
 \tcb@temp=\box133
@@ -1032,10 +1025,10 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.0.1'
-\c@tcbrastercolumn=\count357
-\c@tcbrasterrow=\count358
-\c@tcbrasternum=\count359
-\c@tcbraster=\count360
+\c@tcbrastercolumn=\count356
+\c@tcbrasterrow=\count357
+\c@tcbrasternum=\count358
+\c@tcbraster=\count359
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.0.1'
 (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -1069,7 +1062,7 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.0.1'
 \tcbfitdim=\dimen322
 \tcb@lowerfitdim=\dimen323
 \tcb@upperfitdim=\dimen324
-\tcb@cur@hbadness=\count361
+\tcb@cur@hbadness=\count360
 ) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.0.1'
 (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
@@ -1082,7 +1075,7 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '6.0.1'
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count362
+\c@tcblisting=\count361
 ))
 (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
@@ -1113,9 +1106,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count363
-\Gm@cntv=\count364
-\c@Gm@tempcnt=\count365
+\Gm@cnth=\count362
+\Gm@cntv=\count363
+\c@Gm@tempcnt=\count364
 \Gm@bindingoffset=\dimen325
 \Gm@wd@mp=\dimen326
 \Gm@odd@mp=\dimen327
@@ -1134,14 +1127,14 @@ Package: sidenotes 2016/04/21 v1.00 rich text in the margin for LaTeX
 
 (/usr/share/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count366
+\c@mn@abspage=\count365
 )
 (/usr/share/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count367
-\cp@tempcnt=\count368
+\c@cp@cntr=\count366
+\cp@tempcnt=\count367
 )
-\c@sidenote=\count369
+\c@sidenote=\count368
 \@sidenotes@marginfigurebox=\box139
 \@sidenotes@margintablebox=\box140
 )
@@ -1161,18 +1154,257 @@ Package: marginfix 2020/05/06 v1.2 Fix Margin Paragraphs
 \Mfx@marginspace=\dimen335
 \Mfx@marginheight=\dimen336
 \Mfx@piece@content=\box142
-\Mfx@piece@count=\count370
+\Mfx@piece@count=\count369
 \Mfx@mparshift=\dimen337
 \marginheightadjustment=\dimen338
 \marginposadjustment=\dimen339
 \Mfx@strutheight=\dimen340
 )
-\overhang=\skip151
-\c@ejercicio=\count371
-\c@teo=\count372
-\c@sol=\count373
-\c@nota=\count374
+\overhang=\skip149
+\c@ejercicio=\count370
+\c@teo=\count371
+\c@sol=\count372
+\c@nota=\count373
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count374
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count375
+\c@listtotal=\count376
+\c@listcount=\count377
+\c@liststart=\count378
+\c@liststop=\count379
+\c@citecount=\count380
+\c@citetotal=\count381
+\c@multicitecount=\count382
+\c@multicitetotal=\count383
+\c@instcount=\count384
+\c@maxnames=\count385
+\c@minnames=\count386
+\c@maxitems=\count387
+\c@minitems=\count388
+\c@citecounter=\count389
+\c@maxcitecounter=\count390
+\c@savedcitecounter=\count391
+\c@uniquelist=\count392
+\c@uniquename=\count393
+\c@refsection=\count394
+\c@refsegment=\count395
+\c@maxextratitle=\count396
+\c@maxextratitleyear=\count397
+\c@maxextraname=\count398
+\c@maxextradate=\count399
+\c@maxextraalpha=\count400
+\c@abbrvpenalty=\count401
+\c@highnamepenalty=\count402
+\c@lownamepenalty=\count403
+\c@maxparens=\count404
+\c@parenlevel=\count405
+\blx@tempcnta=\count406
+\blx@tempcntb=\count407
+\blx@tempcntc=\count408
+\c@blx@maxsection=\count409
+\blx@maxsegment@0=\count410
+\blx@notetype=\count411
+\blx@parenlevel@text=\count412
+\blx@parenlevel@foot=\count413
+\blx@sectionciteorder@0=\count414
+\blx@sectionciteorderinternal@0=\count415
+\blx@entrysetcounter=\count416
+\blx@biblioinstance=\count417
+\labelnumberwidth=\skip150
+\labelalphawidth=\skip151
+\biblabelsep=\skip152
+\bibitemsep=\skip153
+\bibnamesep=\skip154
+\bibinitsep=\skip155
+\bibparsep=\skip156
+\bibhang=\skip157
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language87
+\c@mincomprange=\count418
+\c@maxcomprange=\count419
+\c@mincompwidth=\count420
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count421
+\c@savedafterword=\count422
+\c@annotator=\count423
+\c@savedannotator=\count424
+\c@author=\count425
+\c@savedauthor=\count426
+\c@bookauthor=\count427
+\c@savedbookauthor=\count428
+\c@commentator=\count429
+\c@savedcommentator=\count430
+\c@editor=\count431
+\c@savededitor=\count432
+\c@editora=\count433
+\c@savededitora=\count434
+\c@editorb=\count435
+\c@savededitorb=\count436
+\c@editorc=\count437
+\c@savededitorc=\count438
+\c@foreword=\count439
+\c@savedforeword=\count440
+\c@holder=\count441
+\c@savedholder=\count442
+\c@introduction=\count443
+\c@savedintroduction=\count444
+\c@namea=\count445
+\c@savednamea=\count446
+\c@nameb=\count447
+\c@savednameb=\count448
+\c@namec=\count449
+\c@savednamec=\count450
+\c@translator=\count451
+\c@savedtranslator=\count452
+\c@shortauthor=\count453
+\c@savedshortauthor=\count454
+\c@shorteditor=\count455
+\c@savedshorteditor=\count456
+\c@labelname=\count457
+\c@savedlabelname=\count458
+\c@institution=\count459
+\c@savedinstitution=\count460
+\c@lista=\count461
+\c@savedlista=\count462
+\c@listb=\count463
+\c@savedlistb=\count464
+\c@listc=\count465
+\c@savedlistc=\count466
+\c@listd=\count467
+\c@savedlistd=\count468
+\c@liste=\count469
+\c@savedliste=\count470
+\c@listf=\count471
+\c@savedlistf=\count472
+\c@location=\count473
+\c@savedlocation=\count474
+\c@organization=\count475
+\c@savedorganization=\count476
+\c@origlocation=\count477
+\c@savedoriglocation=\count478
+\c@origpublisher=\count479
+\c@savedorigpublisher=\count480
+\c@publisher=\count481
+\c@savedpublisher=\count482
+\c@language=\count483
+\c@savedlanguage=\count484
+\c@origlanguage=\count485
+\c@savedoriglanguage=\count486
+\c@pageref=\count487
+\c@savedpageref=\count488
+\shorthandwidth=\skip158
+\shortjournalwidth=\skip159
+\shortserieswidth=\skip160
+\shorttitlewidth=\skip161
+\shortauthorwidth=\skip162
+\shorteditorwidth=\skip163
+\locallabelnumberwidth=\skip164
+\locallabelalphawidth=\skip165
+\localshorthandwidth=\skip166
+\localshortjournalwidth=\skip167
+\localshortserieswidth=\skip168
+\localshorttitlewidth=\skip169
+\localshortauthorwidth=\skip170
+\localshorteditorwidth=\skip171
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count489
+\c@textcitetotal=\count490
+\c@textcitemaxnames=\count491
+\c@biburlbigbreakpenalty=\count492
+\c@biburlbreakpenalty=\count493
+\c@biburlnumpenalty=\count494
+\c@biburlucpenalty=\count495
+\c@biburllcpenalty=\count496
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count497
+)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
+File: alphabetic.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count498
+\c@bbx:relatedtotal=\count499
+))
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
+File: alphabetic.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2023-02-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+)))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
@@ -1180,7 +1412,11 @@ LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
 
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./master_casella.aux)
+) (./master_casella.aux
+
+LaTeX Warning: Label `fig: binom de unif' multiply defined.
+
+)
 \openout1 = `master_casella.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1201,19 +1437,18 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count375
+\scratchcounter=\count500
 \scratchdimen=\dimen341
 \scratchbox=\box143
-\nofMPsegments=\count376
-\nofMParguments=\count377
+\nofMPsegments=\count501
+\nofMParguments=\count502
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count378
+\MPscratchCnt=\count503
 \MPscratchDim=\dimen342
-\MPnumerator=\count379
-\makeMPintoPDFobject=\count380
+\MPnumerator=\count504
+\makeMPintoPDFobject=\count505
 \everyMPtoPDFconversion=\toks50
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1236,10 +1471,10 @@ Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 9.
 
 (./master_casella.out) (./master_casella.out)
-\@outlinefile=\write4
-\openout4 = `master_casella.out'.
+\@outlinefile=\write5
+\openout5 = `master_casella.out'.
 
-\c@lstlisting=\count381
+\c@lstlisting=\count506
 
 (/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
@@ -1279,11 +1514,31 @@ tim
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\@sidenotes@extrawidth=\skip152
-(./master_casella.toc
+\@sidenotes@extrawidth=\skip172
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `master_casella-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'master_casella.bbl' found.
+
+(./master_casella.bbl)
+Package biblatex Info: Reference section=0 on input line 9.
+Package biblatex Info: Reference segment=0 on input line 9.
+ (./master_casella.toc
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
 .
- (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
+
+(/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
@@ -1314,8 +1569,8 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-\tf@toc=\write5
-\openout5 = `master_casella.toc'.
+\tf@toc=\write6
+\openout6 = `master_casella.toc'.
 
  [1
 
@@ -1336,12 +1591,12 @@ Package marginnote Info: Using workaround for absolute page number on input lin
 e 1.
 
 Chapter 2.
-<./imagenes/26Feb_1.png, id=96, 87.2058pt x 90.5784pt>
+<./imagenes/26Feb_1.png, id=106, 87.2058pt x 90.5784pt>
 File: ./imagenes/26Feb_1.png Graphic file (type png)
 <use ./imagenes/26Feb_1.png>
 Package pdftex.def Info: ./imagenes/26Feb_1.png  used on input line 7.
 (pdftex.def)             Requested size: 87.20557pt x 90.57817pt.
-<./imagenes/26Feb_2.png, id=98, 316.5426pt x 160.9212pt>
+<./imagenes/26Feb_2.png, id=108, 316.5426pt x 160.9212pt>
 File: ./imagenes/26Feb_2.png Graphic file (type png)
 <use ./imagenes/26Feb_2.png>
 Package pdftex.def Info: ./imagenes/26Feb_2.png  used on input line 41.
@@ -1350,12 +1605,12 @@ Package pdftex.def Info: ./imagenes/26Feb_2.png  used on input line 41.
 
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/
 fonts/enc/dvips/lm/lm-mathsy.enc} <./imagenes/26Feb_1.png>]
-<./imagenes/26Feb_3.png, id=114, 84.0741pt x 82.6287pt>
+<./imagenes/26Feb_3.png, id=124, 84.0741pt x 82.6287pt>
 File: ./imagenes/26Feb_3.png Graphic file (type png)
 <use ./imagenes/26Feb_3.png>
 Package pdftex.def Info: ./imagenes/26Feb_3.png  used on input line 59.
 (pdftex.def)             Requested size: 84.07387pt x 82.62846pt.
-<./imagenes/26Feb_4.png, id=115, 136.3494pt x 78.7743pt>
+<./imagenes/26Feb_4.png, id=125, 136.3494pt x 78.7743pt>
 File: ./imagenes/26Feb_4.png Graphic file (type png)
 <use ./imagenes/26Feb_4.png>
 Package pdftex.def Info: ./imagenes/26Feb_4.png  used on input line 87.
@@ -1401,7 +1656,7 @@ Underfull \hbox (badness 6016) in paragraph at lines 202--202
 \OT1/lmr/m/n/8 de dis-tribu-ciones log^^S^^Psticas
  []
 
-<logistic.png, id=140, 651.93562pt x 349.305pt>
+<logistic.png, id=150, 651.93562pt x 349.305pt>
 File: logistic.png Graphic file (type png)
 <use logistic.png>
 Package pdftex.def Info: logistic.png  used on input line 202.
@@ -1429,7 +1684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--264
 \OT1/lmr/m/n/8 de dis-tribu-ciones Cauchy
  []
 
-<./imagenes/CauchyFromUnif.png, id=153, 651.93562pt x 349.305pt>
+<./imagenes/CauchyFromUnif.png, id=163, 651.93562pt x 349.305pt>
 File: ./imagenes/CauchyFromUnif.png Graphic file (type png)
 <use ./imagenes/CauchyFromUnif.png>
 Package pdftex.def Info: ./imagenes/CauchyFromUnif.png  used on input line 264.
@@ -1437,7 +1692,7 @@ Package pdftex.def Info: ./imagenes/CauchyFromUnif.png  used on input line 264.
 (pdftex.def)             Requested size: 325.96701pt x 174.65207pt.
 [5{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./logistic.png (PNG co
 py)>]
-<./imagenes/2Marz.png, id=166, 118.2819pt x 145.9854pt>
+<./imagenes/2Marz.png, id=176, 118.2819pt x 145.9854pt>
 File: ./imagenes/2Marz.png Graphic file (type png)
 <use ./imagenes/2Marz.png>
 Package pdftex.def Info: ./imagenes/2Marz.png  used on input line 314.
@@ -1458,7 +1713,7 @@ Package marginnote Info: Margin note 9.1 is on absolute page 9 on input line 33
 Package marginnote Info: right page because not two side mode on input line 334
 .
 Package marginnote Info: xpos seems to be 72.0pt on input line 334.
-<./imagenes/chiFromExp.png, id=180, 651.93562pt x 349.305pt>
+<./imagenes/chiFromExp.png, id=191, 651.93562pt x 349.305pt>
 File: ./imagenes/chiFromExp.png Graphic file (type png)
 <use ./imagenes/chiFromExp.png>
 Package pdftex.def Info: ./imagenes/chiFromExp.png  used on input line 334.
@@ -1488,7 +1743,7 @@ Underfull \hbox (badness 1231) in paragraph at lines 370--370
 \OT1/lmr/m/n/8 his-togra-mas con el de una
  []
 
-<./imagenes/BM.png, id=181, 651.18282pt x 348.55219pt>
+<./imagenes/BM.png, id=192, 651.18282pt x 348.55219pt>
 File: ./imagenes/BM.png Graphic file (type png)
 <use ./imagenes/BM.png>
 Package pdftex.def Info: ./imagenes/BM.png  used on input line 371.
@@ -1499,7 +1754,7 @@ Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line
 Package marginnote Info: right page because not two side mode on input line 378
 .
 Package marginnote Info: xpos seems to be 72.0pt on input line 378.
-<./imagenes/Box-Muller.png, id=190, 307.6293pt x 354.3639pt>
+<./imagenes/Box-Muller.png, id=200, 307.6293pt x 354.3639pt>
 File: ./imagenes/Box-Muller.png Graphic file (type png)
 <use ./imagenes/Box-Muller.png>
 Package pdftex.def Info: ./imagenes/Box-Muller.png  used on input line 379.
@@ -1519,7 +1774,7 @@ Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line
 Package marginnote Info: right page because not two side mode on input line 429
 .
 Package marginnote Info: xpos seems to be 72.0pt on input line 429.
-<./imagenes/generadores_normal.png, id=199, 651.18282pt x 348.55219pt>
+<./imagenes/generadores_normal.png, id=209, 651.18282pt x 348.55219pt>
 File: ./imagenes/generadores_normal.png Graphic file (type png)
 <use ./imagenes/generadores_normal.png>
 Package pdftex.def Info: ./imagenes/generadores_normal.png  used on input line 
@@ -1531,48 +1786,127 @@ Package marginnote Info: Margin note 12.1 is on absolute page 12 on input line
 Package marginnote Info: right page because not two side mode on input line 459
 .
 Package marginnote Info: xpos seems to be 72.0pt on input line 459.
-<./imagenes/20ap_1.png, id=206, 217.2918pt x 152.9715pt>
+<./imagenes/20ap_1.png, id=216, 217.2918pt x 152.9715pt>
 File: ./imagenes/20ap_1.png Graphic file (type png)
 <use ./imagenes/20ap_1.png>
 Package pdftex.def Info: ./imagenes/20ap_1.png  used on input line 460.
 (pdftex.def)             Requested size: 282.47928pt x 198.86288pt.
 Package marginnote Info: Margin note 12.2 is on absolute page 12 on input line 
-485.
-Package marginnote Info: right page because not two side mode on input line 485
+486.
+Package marginnote Info: right page because not two side mode on input line 486
 .
-Package marginnote Info: xpos seems to be 72.0pt on input line 485.
+Package marginnote Info: xpos seems to be 72.0pt on input line 486.
 
-Underfull \hbox (badness 3657) in paragraph at lines 485--485
+Underfull \hbox (badness 3657) in paragraph at lines 486--486
 []\OT1/lmss/bx/n/8 Figure 2.11: |\OT1/lmr/m/n/8 Figura gen-
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 485--485
+Underfull \hbox (badness 1533) in paragraph at lines 486--486
 \OT1/lmr/m/n/8 er-ada us-ando el c^^Sodigo de
  []
 
-<./imagenes/binom_de_unif.png, id=208, 688.0104pt x 346.1733pt>
+<./imagenes/binom_de_unif.png, id=218, 688.0104pt x 346.1733pt>
 File: ./imagenes/binom_de_unif.png Graphic file (type png)
 <use ./imagenes/binom_de_unif.png>
-Package pdftex.def Info: ./imagenes/binom_de_unif.png  used on input line 486.
+Package pdftex.def Info: ./imagenes/binom_de_unif.png  used on input line 487.
 (pdftex.def)             Requested size: 344.00436pt x 173.08621pt.
-) (./notacion_casella.tex [10 <./imagenes/20ap_1.png> <./imagenes/binom_de_unif
-.png>]
+Package marginnote Info: Margin note 12.3 is on absolute page 13 on input line 
+496.
+Package marginnote Info: right page because not two side mode on input line 496
+.
+Package marginnote Info: xpos seems to be 72.0pt on input line 496.
+
+Underfull \hbox (badness 3657) in paragraph at lines 496--496
+[]\OT1/lmss/bx/n/8 Figure 2.12: |\OT1/lmr/m/n/8 Figura gen-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 496--496
+\OT1/lmr/m/n/8 er-ada us-ando el c^^Sodigo de
+ []
+
+<./imagenes/binom_de_unif_2.png, id=219, 631.60968pt x 353.06906pt>
+File: ./imagenes/binom_de_unif_2.png Graphic file (type png)
+<use ./imagenes/binom_de_unif_2.png>
+Package pdftex.def Info: ./imagenes/binom_de_unif_2.png  used on input line 497
+.
+(pdftex.def)             Requested size: 315.80406pt x 176.53409pt.
+[10 <./imagenes/20ap_1.png> <./imagenes/binom_de_unif.png>])
+(./notas_sobre_R.tex [11 <./imagenes/binom_de_unif_2.png>]
 Chapter 3.
-) [11
+Package marginnote Info: Margin note 14.1 is on absolute page 14 on input line 
+24.
+Package marginnote Info: right page because not two side mode on input line 24.
+
+Package marginnote Info: xpos seems to be 72.0pt on input line 24.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\OT1/lmtt/m/n/8 = 'freq set as TRUE') \OT1/lmr/m/n/8 y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\OT1/lmtt/m/n/8 hist(ame, main = 'freq
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\OT1/lmtt/m/n/8 set as FALSE', freq =
+ []
+
+<./imagenes/hist_1.png, id=237, 589.4522pt x 348.55219pt>
+File: ./imagenes/hist_1.png Graphic file (type png)
+<use ./imagenes/hist_1.png>
+Package pdftex.def Info: ./imagenes/hist_1.png  used on input line 25.
+(pdftex.def)             Requested size: 294.72537pt x 174.27565pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--34
+
+ []
+
+[12
+
+ <./imagenes/hist_1.png (PNG copy)>]
+Package marginnote Info: Margin note 15.1 is on absolute page 15 on input line 
+56.
+Package marginnote Info: right page because not two side mode on input line 56.
+
+Package marginnote Info: xpos seems to be 72.0pt on input line 56.
+
+Underfull \hbox (badness 1173) in paragraph at lines 56--56
+\OT1/lmr/m/n/8 re-sulta de hacer el cam-bio
+ []
+
+<./imagenes/hist_2.png, id=246, 288.3272pt x 308.65312pt>
+File: ./imagenes/hist_2.png Graphic file (type png)
+<use ./imagenes/hist_2.png>
+Package pdftex.def Info: ./imagenes/hist_2.png  used on input line 57.
+(pdftex.def)             Requested size: 144.16324pt x 154.32617pt.
+) (./notacion_casella.tex [13 <./imagenes/hist_2.png>]
+Chapter 4.
+) [14
+
+] [15
 
 ] (./master_casella.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `master_casella.out' has not changed.
-(rerunfilecheck)             Checksum: 1F84989E66F5121D551FAA220BEB3C9D;1356.
+(rerunfilecheck)             Checksum: EC0F5524C98D0058B06DD7438199B9D9;1636.
+Package logreq Info: Writing requests to 'master_casella.run.xml'.
+\openout1 = `master_casella.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 33454 strings out of 476025
- 660826 string characters out of 5796533
- 1863388 words of memory out of 5000000
- 53190 multiletter control sequences out of 15000+600000
- 582080 words of font info for 79 fonts, out of 8000000 for 9000
+ 40320 strings out of 476025
+ 801476 string characters out of 5796533
+ 1864388 words of memory out of 5000000
+ 59991 multiletter control sequences out of 15000+600000
+ 582393 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,15n,121p,1203b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,15n,121p,1913b,1272s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dis
 t/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmbxo10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/shar
@@ -1591,10 +1925,10 @@ ts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt1
 dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/symbols/msbm7.pfb>
-Output written on master_casella.pdf (12 pages, 1263385 bytes).
+Output written on master_casella.pdf (16 pages, 1335582 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 317 words of extra memory for PDF output out of 10000 (max. 10000000)
 

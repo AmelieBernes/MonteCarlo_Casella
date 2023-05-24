@@ -27,12 +27,6 @@
 \usepackage{eso-pic}
 \usepackage[framemethod=tikz]{mdframed}
 
-\usepackage[square,numbers]{natbib}
-\AtBeginDocument{
-  \renewcommand{\bibsection}{\chapter{\bibname}}
-} % Bibliography in numbered chapter
-
-
 
 \usepackage{thmbox} %https://tex.stackexchange.com/questions/513107/what-is-this-fancy-theorem-environment
 
@@ -149,3 +143,8 @@ footskip=40pt,
 %-------------------------------------------
 
 %\DeclareCaptionStyle{marginfigure}[]{labelfont={sf,bf,footnotesize}, font=footnotesize, justification=justified}
+
+
+%Bilbiografía
+\usepackage[backend=bibtex,style=alphabetic]{biblatex}
+\addbibresource{fuentes.bib}
