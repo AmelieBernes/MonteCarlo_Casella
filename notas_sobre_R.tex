@@ -56,25 +56,3 @@ y modificar la propiedad \texttt{density} de este.
 	\centering
 	\includegraphics[scale = 0.5]{hist_2} 
 \end{figure}	
-
-
-> Nsim = 10^4; n = 10; p = 0.3
-> soporte = seq(0, n, 1)
-> vector_pk = pbinom(soporte, n, p)
-> for (i in 1:Nsim){
-+ u = runif(1)
-+ 
-+ }
-> X = rep(0, Nsim) #vector en el que guardaremos los valores de F^{-} evaluada en las Nsim simulaciones uniformes.
-> for (i in 1:Nsim){
-+ u = runif(1)
-+ X[i] = sum(prob<u)
-+ }
-Error: object 'prob' not found
-> X[i] = sum(vector_pk<u)
-> }
-Error: unexpected '}' in "}"
-> for (i in 1:Nsim){
-+ u = runif(1)
-+ X[i] = sum(vector_pk<u)
-+ }

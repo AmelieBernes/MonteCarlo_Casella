@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.6)  23 MAY 2023 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.4)  11 JUL 2023 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1229,7 +1229,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibhang=\skip157
 \blx@bcfin=\read4
 \blx@bcfout=\write4
-\blx@langwohyphens=\language87
+\blx@langwohyphens=\language3
 \c@mincomprange=\count418
 \c@maxcomprange=\count419
 \c@mincompwidth=\count420
@@ -1900,13 +1900,13 @@ Package logreq Info: Writing requests to 'master_casella.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40320 strings out of 476025
- 801476 string characters out of 5796533
+ 40322 strings out of 477985
+ 801498 string characters out of 5840059
  1864388 words of memory out of 5000000
- 59991 multiletter control sequences out of 15000+600000
+ 59740 multiletter control sequences out of 15000+600000
  582393 words of font info for 80 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 114i,15n,121p,1913b,1272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14 hyphenation exceptions out of 8191
+ 114i,15n,121p,1913b,1272s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dis
 t/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm
 /lmbxo10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/shar
